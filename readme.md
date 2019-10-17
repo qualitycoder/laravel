@@ -1,3 +1,13 @@
+## Changes made to standard Laravel repository
+
+- Added ServiceProviders directory
+- Added Services directory
+- Added Models directory
+- Modified config/app.php to scan ServiceProviders directory and autoload all php files contained inside (no need to manually add ServiceProviders any longer)
+- Moved User model to Models directory and updated the namespace
+
+<hr />
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
